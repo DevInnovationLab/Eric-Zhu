@@ -1,7 +1,7 @@
 library(dplyr)
 library(data.table)
 
-folder_path <- "/users/junrongzhu/desktop/R/DIL/" #change to the path to your folder containing the DIV folder
+folder_path <- "/users/junrongzhu/Documents/GitHub/Eric-Zhu" #change to the path to your folder containing the DIV folder
 input <- file.path(folder_path, "DIV")
 
 #section 0: Global inputs
