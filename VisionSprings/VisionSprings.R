@@ -1,8 +1,8 @@
 library(dplyr)
 library(data.table)
 
-folder_path <- "/users/junrongzhu/Documents/GitHub/Eric-Zhu" #change to the path to your folder containing the DIV folder
-input <- file.path(folder_path, "DIV")
+folder_path <- "/users/junrongzhu/Documents/GitHub/DIV" #change to the path to your folder containing the DIV folder
+input <- file.path(folder_path, "VisionSprings")
 
 #section 0: Global inputs
 global_input_gdp <- read.csv(file.path(input, "global_input_gdp.csv"))
