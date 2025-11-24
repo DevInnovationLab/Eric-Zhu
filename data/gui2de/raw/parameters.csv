@@ -1,0 +1,6 @@
+name,parameter,value,source
+accidents_reduction,Reduction in annualized rate of accidents,0.017,1. Habyarimana and Jack (2015)
+deaths_per_accident,Deaths per accident,0.105,1. Habyarimana and Jack (2015)
+injuries_per_death,Injuries per death,4,3. GiveWell
+years_lost_per_death,Years of life lost per death,23.8,2. Online Supplement A2
+disability_years_per_accident,Years lived with disability per minibus injury,7,1. Habyarimana and Jack (2015)
