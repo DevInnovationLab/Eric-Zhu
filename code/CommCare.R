@@ -98,10 +98,11 @@ benefits <-
 op_cost <-
   reach %>%
   mutate(
-    op_cost = case_when(
-      year < 2021 ~ av_flws_per_calendar_year * parameters_c$unit_cost_pre2021,
-      year >= 2021 ~ av_flws_per_calendar_year * parameters_c$unit_cost_2021onward
-    )
+    unit_cost = case_when(
+      year < 2021 ~ parameters_c$unit_cost_pre2021,
+      year >= 2021 ~ parameters_c$unit_cost_2021onward
+    ),
+    op_cost_usd = av_flws_per_calendar_year * unit_cost
   )
 
 ## Innovation costs ------------------------------------------------------------

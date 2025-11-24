@@ -1,0 +1,6 @@
+name,parameter,kenya,uganda,malawi,source,notes
+u5_mr,Under-5 all-cause mortality rate (average from 2013 - 2024),0.059,0.059,0.064,"Using the weighted average from EA, which they get from GBD from county-specific estimates.",weighted average from 2013 - 2024
+births_per_year,Children born per dispenser per year,3,8,5,Evidence Action's CEA,"Weighted average of U5s per dispenser over all years, divide by 5 to back out the number of children born per dispenser per year."
+takeup,Increase in use from dispenser access,0.24,0.26,0.47,"3, conversations with EA about their recent surveys on take up",Dispenser take up adjusted based on recent EA survey data - (40% lower than previously thought)
+effect_on_mr,Reduction in mortality from treatment,0.19,0.19,0.19,Kremer et al (2023),
+life_years_per_death,Life years lost to child death,31.1,30.99,31.22,https://georgetown.box.com/s/ajtpoqnb8i0evq0wwd30rfsplpmr9x6d,
