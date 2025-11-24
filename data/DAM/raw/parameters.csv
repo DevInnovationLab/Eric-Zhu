@@ -1,0 +1,12 @@
+name,parameter,value,source
+preg_women,Pregnant women (in 202 villages surveyed),2598,1. Dhaliwal and Hanna (2017)
+treatment_phc,Treatment PHCs,140,1. Dhaliwal and Hanna (2017)
+people_per_phc,People served per PHC,18000,1. Dhaliwal and Hanna (2017)
+villages_per_phc,Villages served per PHC,13,1. Dhaliwal and Hanna (2017)
+effect_on_attended_births,Increase in rate of attended births,0.08,1. Dhaliwal and Hanna (2017)
+effect_on_mortality,Reduction in child mortality from attended birth,0.29,2. Tura et al. (2013)
+effect_on_supplementation,Increase in rate of IFA supplementation,0.106,1. Dhaliwal and Hanna (2017)
+neonatal_mr_reduction,Reduction in neonatal mortality from IFA supplementation,0.15,5. Singh et al. (2014)
+neonatal_mr,Karnataka neonatal mortality rate (2012),0.023,"4. National Institute of Public Cooperation and Child Development, pg. 30"
+life_year_per_child_saved,Life years per child death saved (2012),32.12,3. Online Supplement B2
+life_year_per_mother_saved,Life years saved per pregnant woman served,0.01,5. Singh et al. (2014)
