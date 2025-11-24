@@ -1,0 +1,15 @@
+name,parameter,value,source,notes
+unit_cost_pre2021,"Unit cost per FLW (India), before 2021",210.560,Correspondence; Dimagi's Total Cost of Ownership model (which uses India as an example),"Before 2021: $329/FLW per Dimagi's Total Cost of Ownership model from 2019, based on ICDS-CAS costs, where large share of cost comes from phone procurement. Per email discussion with Dimagi, FLWs also personally benefit from using the procured phones (approx 28% personal usage). As a result, we subtract the 28%, and take half of that for a conservative estimation up until 2021 (1-0.72*0.5)"
+unit_cost_2021onward,"Unit cost per FLW (India), 2021 onward",100.000,Correspondence; Dimagi's Total Cost of Ownership model (which uses India as an example),After 2021: We do not have data on cost per FLW under the Indian government led program. We know from a phone call with BMGF India digital health team that the costs have drastically reduced (possibly to $10-$15/FLW). Our best guess of Poshan Tracker's at scale cost is $100/FLW (conservative compared to $10-15/FLW per BMGF)
+preg_women_served_per_flw_year,Pregnant women served per FLW-year,11.500,CommCare dashboard - http://wcd.dashboard.nic.in/view_detail/eyJpdiI6ImI3MEczRTV4d3IrVkN3bDdcL21mSG1RPT0iLCJ2YWx1ZSI6InhETnVQVjlQbmk4SkU2UjBWYnRHUVE9PSIsIm1hYyI6IjZiZjMzMzBmMTY4ZWJjOWJjYTI1ZjMwOTk4MTI2MWZlNWE4Mjg5NGM4ZGE5MjRmYTE4NDQxNWVjMzhkZDk5N2EifQ==/1,
+effect_on_tetanus_takeup,Increase in tetanus toxoid immunization rate,0.047,Borkum et al (2015),
+effect_on_tetanus_takeup,Increase in tetanus toxoid immunization rate,0.038,Carmichael et al (2019),
+effect_on_anc,Increase in antenatal care rate,0.211,Borkum et al (2015),
+effect_on_anc,Increase in antenatal care rate,0.066,Carmichael et al (2019),
+effect_on_ifa,Increase in IFA supplementation rate (90+ days),0.063,Borkum et al (2015),
+effect_on_ifa,Increase in IFA supplementation rate (90+ days),0.004,Carmichael et al (2019),
+tetanus_effect_on_mortality,Tetanus toxoid immunization effect on neonatal mortality,0.270,Singh et al. (2014),
+anc_effect_on_mortality,ANC effect on neonatal mortality,0.310,Singh et al. (2014),
+ifa_effect_on_mortality,IFA effect on neonatal mortality,0.150,Singh et al. (2014),
+neonatal_mr,India neonatal mortality rate (2019),0.0214,World Bank / childmortality.org,
+life_years_per_child,Life years per child death saved (2017),32.280,Carmichael et al (2019) - https://pmc.ncbi.nlm.nih.gov/articles/PMC6875677/pdf/jogh-09-020424.pdf,
