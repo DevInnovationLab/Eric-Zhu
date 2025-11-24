@@ -1,0 +1,5 @@
+name,parameter,value,source
+discount_rate,Discount Rate,0.04,Following GiveWell's practice
+op_unit,Open Philanthropy's Numeraire (log points),0.0000199998,Per OP's technical update note
+comparison_income,Estimated annual income of potential recipient of money spent on an innovation's operating costs,1347.5,"Given that 83% of the reach of DIV supported innovations are in India, we are using India's GDP per capita in 2010 to proxy for the estimated annual income of a potential recipient of money spent on an innovation's operating costs. (this amount is the ""c"" referred to in the example in the Methodology section, used to calculate the loss in consumption due to operating costs in OP units)"
+daly_op,OP valuation of 1 DALY (in log points),2,Per OP's technical update note
