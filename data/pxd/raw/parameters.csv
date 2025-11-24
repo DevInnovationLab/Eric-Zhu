@@ -1,0 +1,6 @@
+name,parameter,value,source,notes
+effect_on_profit_odisha,Increase in profit per farmer-year (Odisha),4.41,"1. Cole et al., 2025",
+effect_on_profit_oaf,Increase in profit per farmer-year (One Acre Fund),0.64,"2. Fabregas et al., 2024",$0.32 profit per farmer-ag season. 2 growing seasons for maize in Kenya.
+effect_on_profit_india,Increase in profit per farmer-year (India Weather Forecasts),5.00,3. Ongoing research and based on private communications with the Ministry of Ag,
+baseline_profit_odisha,Baseline profit (proxy for farmer income) from the Odisha study (used to estimate baseline faremer income for Odisha and India Weather Forecasts),104.12,"1. Cole et al., 2025",Used for translating to OP units. The paper reports baseline imputed profit as 7706.75. We multiply this by the 2021 exchange rate (used in the paper).
+baseline_profit_oaf,Baseline profit (proxy for farmer income - OAF),293.10,4. OAF analysis,"Used for translating to OP Units. Indicates three baseline profit numbers for Kenyan farmers in their target populations. 2009 in Chewele district, Kenya; 2014 in Busia district, Kenya; and 2017 in Teso district, Kenya. We use the 2017 in Teso district figure as it is most similar in time and location to the 1AF sites used in the Fabregas et al., 2024 meta analysis."
