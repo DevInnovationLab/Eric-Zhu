@@ -1,0 +1,4 @@
+name,parameter,value,Source
+annual_savings,Annual energy savings (T - C),72.28,1. IDInsight (2012)
+lifespan,Years of life of solar home system (minimum),7,2. Email with d.light
+annual_consumption,"Annual household consumption expenditure, as a proxy for income",774,1. IDInsight (2012)

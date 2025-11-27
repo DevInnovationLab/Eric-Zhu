@@ -5,7 +5,7 @@
 ## Years of interest -----------------------------------------------------------
 
 years <-
-  data.frame("year" = 2010:2035) # What's going on with the years?
+  data.frame("year" = 2010:2035)
 
 ## Parameters ------------------------------------------------------------------
 
@@ -49,7 +49,6 @@ in_cost <-
 
 ## Calculated parameters -------------------------------------------------------
 
-# Confirm that the right effect sizes are being used from the 2015 and 2019 papers
 # Why divide by 2?
 parameters_c <-
   parameters %>%
@@ -88,7 +87,6 @@ benefits <-
   mutate(
     life_years_saved = av_flws_per_calendar_year * parameters_c$life_years_saved_per_flw,
     benefits_usd = life_years_saved * gdp_pc,
-    # Confirm why multiply per DALY op
     benefits_op = life_years_saved * global_parameters$daly_op / global_parameters$op_unit
   )
   
@@ -107,7 +105,6 @@ op_cost <-
 
 ## Innovation costs ------------------------------------------------------------
 
-# There is an adjustment here for 2014 that is not explained
 in_cost_c <-
   in_cost %>%
   group_by(year, investment) %>%

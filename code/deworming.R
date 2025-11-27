@@ -1,13 +1,5 @@
 # Process deworming data
 
-# Read this paert of the paper carefully
-pacman::p_load(
-  tidyverse,
-  here,
-  janitor,
-  zoo
-)
-
 # Inputs -----------------------------------------------------------------------
 
 ## Years of interest -----------------------------------------------------------
@@ -131,7 +123,7 @@ benefits <-
       select(year, burden_final)
   ) %>%
   mutate(
-    # Final reach is defined as the minimum of two rowns
+    # Final reach is defined as the minimum of two rows
     min = min(round1, round2, na.rm = TRUE),
     # Adjust for take up 
     takeup_adj = min * parameters$takeup,
@@ -144,7 +136,7 @@ benefits <-
 
 ## Operating costs ------------------------------------------------------------
 
-op_costs <-
+op_cost <-
   reach_c %>%
   rowwise() %>%
   mutate(
@@ -172,7 +164,7 @@ deworming <-
     parameters = parameters,
     reach = reach_c,
     benefits = benefits,
-    operating_costs = op_costs,
+    operating_costs = op_cost,
     innovation_costs = in_cost_c
   )
 

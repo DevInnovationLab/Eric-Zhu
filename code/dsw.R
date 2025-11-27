@@ -5,7 +5,7 @@
 ## Years of interest -----------------------------------------------------------
 
 years <-
-  data.frame("year" = 2010:2035) # What's going on with the years?
+  data.frame("year" = 2010:2035)
 
 ## Parameters ------------------------------------------------------------------
 
@@ -95,7 +95,6 @@ benefits_by_country <-
   left_join(parameters) %>%
   mutate(
     # Deaths averted per dispenser
-    ## Ask Wendy/check paper: rate of reduction in child mortality due to treatment, adjusted by 1/0.53 to back out the ToT from the meta-analysis
     births_per_dispenser_used = births_per_year * takeup,
     deaths_per_dispenser_used = births_per_dispenser_used * u5_mr,
     deaths_averted_per_dispenser_used = deaths_per_dispenser_used * effect_on_mr,

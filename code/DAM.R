@@ -5,7 +5,7 @@
 ## Years of interest -----------------------------------------------------------
 
 years <-
-  data.frame("year" = 2010:2013) # What's going on with the years?
+  data.frame("year" = 2010:2013)
 
 ## Parameters ------------------------------------------------------------------
 
@@ -97,7 +97,7 @@ op_cost_c <-
   DAM <-
   list(
     parameters = parameters_c,
-    reach = reach_c,
+    reach = reach,
     benefits = benefits,
     operating_costs = op_cost_c,
     innovation_costs = in_cost

@@ -8,7 +8,8 @@ pacman::p_load(
   tidyverse,
   here,
   janitor,
-  zoo
+  zoo,
+  slider
 )
 
 # Global inputs ----------------------------------------------------------------
